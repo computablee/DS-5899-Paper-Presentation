@@ -68,3 +68,5 @@ And I omit the long train of thought to save space (but trust me, it's there), C
 ![Figure 6](assets/figure6.png)
 
 Which is **correct!**
+
+**Q2: **
