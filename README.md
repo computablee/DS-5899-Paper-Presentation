@@ -47,3 +47,9 @@ The following figure displays accuracy on all of these tasks vs. random for seve
 
 ![Figure 3](assets/figure3.png)
 
+The model shown in A-C is LaMDA, and the model shown in D is a model by Anthropic.
+
+For **Math word problems**, chain-of-thought reasoning starts to improve accuracy after a model exceeds 100B parmeters.
+For **Instruction following**, instruction fine-tuning improves accuracy after a model exceeds 100B parameters.
+For **8-digit addition**, a scratchpad improves accuracy after a model exceeds 40M parameters (million, not billion!).
+For **Calibration**, true/false improves accuracy after a model exceeds 52B parameters.
