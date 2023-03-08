@@ -53,3 +53,18 @@ For **Math word problems**, chain-of-thought reasoning starts to improve accurac
 For **Instruction following**, instruction fine-tuning improves accuracy after a model exceeds 100B parameters.
 For **8-digit addition**, a scratchpad improves accuracy after a model exceeds 40M parameters (million, not billion!).
 For **Calibration**, true/false improves accuracy after a model exceeds 52B parameters.
+
+Here's chain-of-thought used to help ChatGPT solve a high school math word problem.
+First, I tell ChatGPT to *only* say the answer and to *not* show its work:
+
+![Figure 4](assets/figure4.png)
+
+This answer is incorrect. However, when I ask it to show its work...
+
+![Figure 5](assets/figure5.png)
+
+And I omit the long train of thought to save space (but trust me, it's there), ChatGPT is able to come up with...
+
+![Figure 6](assets/figure6.png)
+
+Which is **correct!**
