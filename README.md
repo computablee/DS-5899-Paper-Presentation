@@ -23,4 +23,10 @@ The following figure displays accuracy on all of these tasks vs. random for seve
 
 GPT-3 begins to exceed random performance around 13B parameters, and LaMDA exceeds random performance around 68B parameters.
 
+Since this paper has no code, nor is it possibly feasible to run any of these LLMs with billions of parameters in a Jupyter notebook,
+I'll be sprinkling into this paper examples of emergent behavior in LLMs like ChatGPT and Bing.
+Here's an example of **Word unscramble** in ChatGPT, using few-shot prompted learning, indicating that ChatGPT is north of 13B parameters (duh!)
+
+![Figure 2](assets/figure2.png)
+
 **Q1:**
