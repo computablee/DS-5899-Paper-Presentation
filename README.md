@@ -69,4 +69,6 @@ And I omit the long train of thought to save space (but trust me, it's there), C
 
 Which is **correct!**
 
-**Q2: **
+**Q2: Does this tell us that ChatGPT is at least 100B parameters?**
+
+## Analysis
