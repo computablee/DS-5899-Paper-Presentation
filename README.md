@@ -17,7 +17,7 @@ This paper uses BIG-Bench, a benchmark suite of over 200 benchmarks for evaluati
 * **Word unscramble** - unscrambling words
 * **Persian QA** - question answering in Persian
 
-The following figure displays accuracy on all of these tasks vs. random for several differnt parameter counts.
+The following figure displays accuracy on all of these tasks vs. random for several different parameter counts.
 
 ![Figure 1](assets/figure1.png)
 
@@ -35,3 +35,15 @@ Here's an example of **Word unscramble** in ChatGPT, using few-shot prompted lea
 
 The authors consider another, different kind of emergent ability--efficacy of prompt engineering.
 In essense, if a certain prompt does not aide or is harmful to achieving a goal below a certain parameter count, yet is beneficial above that parameter count, this is also an emergent ability.
+
+The authors use four benchmarks to evaluate augmented prompting strategies:
+
+* **Math word problems** - Solving word problems in mathematics with or without a prompt expressing a desire for a chain-of-thought
+* **Instruction following** - Following instrucions with or without fine-tuning the model on instruction following
+* **8-digit addition** - Computing the addition of two 8-digit numbers with or without a prompt expressing a desire for a scratchpad
+* **Calibration** - Predicting what types of questions a model will be able to answer correctly using either multiple choice or true/false
+
+The following figure displays accuracy on all of these tasks vs. random for several different parameter counts.
+
+![Figure 3](assets/figure3.png)
+
