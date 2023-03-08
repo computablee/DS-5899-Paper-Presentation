@@ -29,4 +29,9 @@ Here's an example of **Word unscramble** in ChatGPT, using few-shot prompted lea
 
 ![Figure 2](assets/figure2.png)
 
-**Q1:**
+**Q1: What might be the reason that LaMDA requires so many more parameters than GPT-3 does to achieve the same emergent behavior?**
+
+## Augmented Prompting Strategies
+
+The authors consider another, different kind of emergent ability--efficacy of prompt engineering.
+In essense, if a certain prompt does not aide or is harmful to achieving a goal below a certain parameter count, yet is beneficial above that parameter count, this is also an emergent ability.
