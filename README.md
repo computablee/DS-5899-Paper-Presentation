@@ -81,3 +81,12 @@ I would have preferred a more in-depth literature review of emergent risks, beca
 Attached is a video of me going over this repository.
 
 [![Watch the video](assets/video.png)](https://youtu.be/a-EZQvBfQMI)
+
+## Links
+Here's a few links I think may be beneficial.
+
+* [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165), a paper which demonstrates that LLMs are great at task-agnostic, few-shot learning, comparable with even fine-tuned models.
+* [The original paper for Big-Bench](https://arxiv.org/abs/2206.04615), which outlines the Big-Bench benchmark suite for LLMs.
+* [Big-Bench GitHub Repo](https://github.com/google/BIG-bench), which contains all of the benchmarks for your own testing!
+* [Challenging BIG-Bench Tasks and Whether Chain-of-thought Can Solve Them](https://arxiv.org/abs/2210.09261), which demonstrates that chain-of-thought prompting can improve performance on BIG-Bench.
+* [Language Models (Mostly) Know What They Know](https://arxiv.org/abs/2207.05221), a paper that demonstrated **Calibration**, which is a way of asking a language model what it knows (and they *usually* do).
