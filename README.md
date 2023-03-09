@@ -1,10 +1,11 @@
 # Emergent Abilities of Large Language Models
 Large language models (LLMs) often feature *emergent abilities*.
-An emergent ability is a phenomenon where LLMs will perform effectively randomly on a task up until the number of model parameters exceeds some critical threshold, at which point performance skyrockets to significantly better than random.
+An emergent ability is a phenomenon where LLMs will perform effectively randomly on a task until the number of model parameters exceeds some critical threshold, at which point performance skyrockets to significantly better than random.
 The transition from *random performance* to *better-than-random* performance is called a phase transition.
 
 One of the emergent behaviors discussed in our course this semester is in-context learning, which begins to emerge around 6-7 billion parameters.
-Under this threshold, models display no capabilities to perform in-context learning. However, once this threshold is passed, the behavior emerges.
+Under this threshold, models display no capabilities to perform in-context learning.
+However, once this threshold is passed, the behavior emerges.
 It is impossible to predict emergent abilities without empirical observation via training increasingly large models, because emergent abilities do not follow traditional scaling laws.
 
 ## Few-Shot Prompted Tasks
@@ -24,7 +25,7 @@ The following figure displays accuracy on all of these tasks vs. random for seve
 GPT-3 begins to exceed random performance around 13B parameters, and LaMDA exceeds random performance around 68B parameters.
 
 Since this paper has no code, nor is it possibly feasible to run any of these LLMs with billions of parameters in a Jupyter notebook,
-I'll be sprinkling into this paper examples of emergent behavior in LLMs like ChatGPT and Bing.
+I'll be sprinkling into this paper examples of emergent behavior in ChatGPT.
 Here's an example of **Word unscramble** in ChatGPT, using few-shot prompted learning, indicating that ChatGPT is north of 13B parameters (duh!)
 
 ![Figure 2](assets/figure2.png)
@@ -86,7 +87,7 @@ Attached is a video of me going over this repository.
 Here's a few links I think may be beneficial.
 
 * [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165), a paper which demonstrates that LLMs are great at task-agnostic, few-shot learning, comparable with even fine-tuned models.
-* [The original paper for Big-Bench](https://arxiv.org/abs/2206.04615), which outlines the Big-Bench benchmark suite for LLMs.
-* [Big-Bench GitHub Repo](https://github.com/google/BIG-bench), which contains all of the benchmarks for your own testing!
+* [The original paper for BIG-Bench](https://arxiv.org/abs/2206.04615), which outlines the BIG-Bench benchmark suite for LLMs.
+* [BIG-Bench GitHub Repo](https://github.com/google/BIG-bench), which contains all of the benchmarks for your own testing!
 * [Challenging BIG-Bench Tasks and Whether Chain-of-thought Can Solve Them](https://arxiv.org/abs/2210.09261), which demonstrates that chain-of-thought prompting can improve performance on BIG-Bench.
 * [Language Models (Mostly) Know What They Know](https://arxiv.org/abs/2207.05221), a paper that demonstrated **Calibration**, which is a way of asking a language model what it knows (and they *usually* do).
