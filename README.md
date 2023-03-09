@@ -72,3 +72,7 @@ Which is **correct!**
 **Q2: Does this tell us that ChatGPT is at least 100B parameters?**
 
 ## Analysis
+This paper does a great job of quantifying emergent behavior, but seemed lacking when discussing emergent risks.
+For many of the emergent behaviors, nice graphs were shown that allowed easy visualization of the phenomena.
+However, when discussing emergent risks, it was largely a quick summary sentence followed by a citation.
+I would have preferred a more in-depth literature review of emergent risks, because these are very scary for the future of LLMs.
