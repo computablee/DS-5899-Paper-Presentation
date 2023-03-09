@@ -76,3 +76,8 @@ This paper does a great job of quantifying emergent behavior, but seemed lacking
 For many of the emergent behaviors, nice graphs were shown that allowed easy visualization of the phenomena.
 However, when discussing emergent risks, it was largely a quick summary sentence followed by a citation.
 I would have preferred a more in-depth literature review of emergent risks, because these are very scary for the future of LLMs.
+
+## Video
+Attached is a video of me going over this repository.
+
+[![Watch the video](assets/video.png)](https://youtu.be/a-EZQvBfQMI)
